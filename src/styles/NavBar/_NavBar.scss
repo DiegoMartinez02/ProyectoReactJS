@@ -1,0 +1,23 @@
+
+.navbar_header{
+    display: flex;
+    justify-content: center;
+    .navbar_div{
+    padding-bottom: 1rem;
+    justify-content: center;
+    display:flex;
+    position:fixed;
+    align-items: center;
+    background-color: rgb(34 197 94);
+    z-index: 1;
+    .navbar_bar{
+        text-align: center;
+    }
+    .navbar_nav a{
+        text-decoration: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: white;
+    }
+}
+}
