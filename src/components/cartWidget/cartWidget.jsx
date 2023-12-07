@@ -1,9 +1,13 @@
-export const cartWidget = () => {
+import carrito from '../../assets/cart.png'
+const CartWidget = () => {
     return (
-        <header >
-            <div >
-                <h2></h2>
+        <div className='cartWidgetLogo'>
+            <img src={carrito} alt="carrito" height={"50px"} />
+            <div className='cartNumber'>
+                <p>5</p>
             </div>
-        </header>
+            
+        </div>
     )
 }
+export default CartWidget

@@ -1,4 +1,4 @@
-import { cartWidget } from "../cartWidget/cartWidget"
+import CartWidget from "../cartWidget/CartWidget"
 
 export const NavBar = () => {
     return (
@@ -12,8 +12,8 @@ export const NavBar = () => {
                     <a className="navbar_a" href="">Baño</a>
                     <a className="navbar_a" href="">Autos y Motos</a>
                     <a className="navbar_a" href="">Contacto</a>
-                    {cartWidget}
-                </nav>
+                </nav>             
+                <CartWidget/>
             </div>
         </header>
     )
