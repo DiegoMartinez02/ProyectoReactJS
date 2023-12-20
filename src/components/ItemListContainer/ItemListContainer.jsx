@@ -1,11 +1,29 @@
+// import { useEffect, useState } from "react"
+// import pedirDatos from "../../utils/utils"
+import ItemList from "../ItemList/ItemList"
+// import useProductos from "../hooks/useProductos"
+import withProductsData from "../hoc/withProductsData"
+// import ProductsData from "../renderprops/ProductsData"
 
-const ItemListContainer = ({greeting}) => {
+
+const ItemListContainer = ({productos}) => {
+
+    // const {productos} = useProductos()
+    
     return (
-        <section className="list-container">
-            <h2 className="list-title">Productos</h2>
-            <p>{greeting}</p>
-        </section>
+        <>
+            {/* <ProductsData>
+                {(productos) => (
+                    <>
+                        {
+                            <ItemList productos={productos}/>
+                        }
+                    </>
+                )}
+            </ProductsData> */}
+            <ItemList productos={productos} />
+        </>
     )
 }
 
-export default ItemListContainer
+export default withProductsData (ItemListContainer)

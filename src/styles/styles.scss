@@ -1,19 +1,14 @@
 @import './NavBar/NavBar';
 @import './cartWidget/cartWidget';
-@import'./ItemListContainer/ItemListContainer.scss';
+@import './ItemListContainer/ItemListContainer';
+@import './Container/Container';
+@import './Boton/Boton';
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.contenido{
-    padding: 1rem;
-    padding-top: 100px;
-    font-size: large;
-    position:relative;
-    h1, h2, h3, p{
-        padding: 1rem;
+    h1{
+        color: black;
     }
-
 }
