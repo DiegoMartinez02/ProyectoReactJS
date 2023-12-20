@@ -1,0 +1,48 @@
+.detail-container {
+    margin-top: 3.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+    display: flex;
+    img{
+        box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .detail-no-img{
+        padding: 10px;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .itemName{
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        }
+        
+        .itemPrice{
+        font-size: 45px;
+        text-align: center;
+        }
+        .boton-añadir-al-carrito{
+        background-color: rgb(34 197 94);
+        width: 100%;
+        margin-bottom: 1rem;
+        }
+        .boton-añadir-al-carrito:hover{
+        cursor: pointer;
+        background-color: rgb(74 222 128);
+        }
+    }
+}
+    
+.itemDescriptionDetail{
+        padding: 3rem;
+        font-size: 30px;
+        h3{
+            font-size: 35px;
+            font-weight: 600;
+        }
+        }    

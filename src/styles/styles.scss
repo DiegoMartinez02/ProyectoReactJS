@@ -3,12 +3,11 @@
 @import './ItemListContainer/ItemListContainer';
 @import './Container/Container';
 @import './Boton/Boton';
+@import './ItemDetailContainer/ItemDetailContainer';
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    h1{
-        color: black;
-    }
+    font-family: 'Work Sans', sans-serif;
 }

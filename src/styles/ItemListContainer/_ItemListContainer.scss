@@ -1,5 +1,5 @@
 .list-container {
-  margin-top: 3.2rem;
+  margin-top: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
   color: black;
@@ -7,6 +7,7 @@
   }
   
   .list-title {
+    text-align: center;
     font-size: 40px;
     font-weight: 700;
   }
@@ -18,7 +19,7 @@
       margin: 1rem;
       padding: 0.5rem;
       width: 250px;
-      height: 400px;
+      height: 350px;
       background-color: white;
       overflow:hidden;
       box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -27,11 +28,13 @@
         text-align: center;
         background-color: white;
       }
-      .itemDescription{
-        height: 50px;
-        overflow: hidden;
-        color: grey;
-      }
+      // .itemDescription{
+      //   font-size: 15px;
+      //   font-weight: 300;
+      //   height: 50px;
+      //   overflow: hidden;
+      //   color: rgb(189, 189, 189);
+      // }
       .itemPrice{
         font-size: larger;
         text-align: center;
