@@ -1,10 +1,10 @@
 import CartWidget from "../cartWidget/CartWidget"
 import { Link } from "react-router-dom"
 
-const links = [
+export const navBarLinks = [
     {
         label: 'Tienda',
-        href: '/'
+        href: '/tienda'
     },
     {
         label: 'Cocina',
@@ -28,10 +28,10 @@ export const NavBar = () => {
     return (
         <header className="navbar_header">
             <div className="navbar_div">
-                <h1>DM Mayorista</h1>
+                <h1><a className="boton-inicio" href="/">DM Mayorista</a></h1>
                 <nav className="navbar_nav">
                     {
-                        links.map((link) => (
+                        navBarLinks.map((link) => (
                             <Link className="navbar_a" to={link.href}>{link.label}</Link>
                         ))
                     }

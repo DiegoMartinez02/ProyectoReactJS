@@ -4,6 +4,7 @@
     margin-right: 2rem;
     color: black;
     display: flex;
+    justify-content:space-around;
     img{
         box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
     }
@@ -26,14 +27,32 @@
         font-size: 45px;
         text-align: center;
         }
+        .contador{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .boton-cantidad{
+            background-color: rgb(34 197 94);
+            width: 10%;
+            }
+            .boton-cantidad:hover{
+                cursor: pointer;
+                background-color: rgb(74 222 128);
+            }
+            .cantidad{
+                margin: 20px;
+                font-size: 24px;
+            }
+        }
+        
         .boton-añadir-al-carrito{
-        background-color: rgb(34 197 94);
-        width: 100%;
-        margin-bottom: 1rem;
+            background-color: rgb(34 197 94);
+            width: 100%;
+            margin-bottom: 1rem;
         }
         .boton-añadir-al-carrito:hover{
-        cursor: pointer;
-        background-color: rgb(74 222 128);
+            cursor: pointer;
+            background-color: rgb(74 222 128);
         }
     }
 }
@@ -46,3 +65,9 @@
             font-weight: 600;
         }
         }    
+
+@media only screen and (max-width: 480px) {
+    .detail-container{
+        flex-direction: column;
+    }
+}
