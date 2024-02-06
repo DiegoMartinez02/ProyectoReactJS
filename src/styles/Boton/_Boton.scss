@@ -8,3 +8,23 @@
 .botonAzul{
     background-color: blue;
 }
+.botonVer{
+    background-color: rgb(34 197 94);
+    width: 220px;
+  }
+  .botonVer:hover{
+    cursor: pointer;
+    background-color: rgb(74 222 128);
+  }
+  .botonVerLink{
+    text-decoration: none;
+    color: white;
+  }
+.botonQuitar{
+    background-color: rgb(34 197 94);
+    padding: 1px;
+}
+.botonQuitar:hover{
+    cursor: pointer;
+    background-color: rgb(74 222 128);
+  }
